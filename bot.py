@@ -1,15 +1,15 @@
 # =======================================================================
-# 🟢 EASY CUSTOMIZATION BLOCK (अपने 20 चैनल्स के लिए इसे बदलें) 🟢
+# 🟢 EASY CUSTOMIZATION BLOCK (अपने 'Science' चैनल के लिए इसे बदलें) 🟢
 # =======================================================================
 
 # 1. 🏷️ TOP CENTER BANNER 
-TOP_CENTER_TITLE = "GK Questions" 
+TOP_CENTER_TITLE = "General Science Quiz" # या "विज्ञान प्रश्नोत्तरी" भी लिख सकते हैं
 
 # 2. 🎵 BACKGROUND MUSIC
-BGM_FILE = "./bgm.mp3" 
+BGM_FILE = "./bgm.mp3" # टिप: साइंस के लिए थोड़ा Sci-fi या सस्पेंस वाला BGM अच्छा लगेगा
 BGM_VOLUME = 0.35  
 
-# 3. 🗣️ VOICES & SPEED 
+# 3. 🗣️ VOICES & SPEED (वापस हिंदी सेट कर दिया है)
 VOICE_QUESTION = "hi-IN-MadhurNeural" 
 VOICE_ANSWER = "hi-IN-SwaraNeural"    
 VOICE_SPEED = "+0%"                   
@@ -18,22 +18,24 @@ VOICE_SPEED = "+0%"
 TIMER_SECONDS = 5.0  
 
 # 5. 👻 WATERMARK SETTINGS
-CHANNEL_WATERMARK = "Zoom Mind" 
+CHANNEL_WATERMARK = "Your Channel Name" # ⚠️ यहाँ अपने नए साइंस चैनल का नाम लिखें (जैसे: Science Guru)
 
-THUMB_TEMPLATE = "./thumb_template.jpg" 
+THUMB_TEMPLATE = "./thumb_template.jpg" # टिप: थंबनेल में DNA, अंतरिक्ष, या माइक्रोस्कोप की फोटो लगा सकते हैं
 HINDI_FONT = "./NirmalaB.ttf" 
 
-# 6. 📝 YOUTUBE SEO (Random Titles & Tags)
+# 6. 📝 YOUTUBE SEO (Random Titles & Tags for Science)
 YT_TITLES = [
-    "Most Important GK Questions in Hindi 🔥 | Mega Quiz Test",
-    "Top GK Quiz in Hindi 🤔 | General Knowledge Test",
-    "GK Questions That Will Blow Your Mind 🤯 | Hindi Quiz"
+    "Top Science GK Questions in Hindi 🚀 | विज्ञान के महत्वपूर्ण प्रश्न",
+    "General Science Quiz 🧬 | Physics, Chemistry, Biology GK",
+    "Science GK For SSC/Railway 🤯 | बार-बार पूछे जाने वाले विज्ञान के सवाल"
 ]
-YT_DESC_ADDON = "इस वीडियो में आपके लिए बहुत महत्वपूर्ण सवाल हैं। देखते हैं आप कितनों का सही जवाब दे पाते हैं!"
+
+YT_DESC_ADDON = "इस वीडियो में General Science (भौतिकी, रसायन और जीव विज्ञान) के सबसे महत्वपूर्ण सवाल दिए गए हैं। Railway (RRB), SSC, Police और अन्य सभी प्रतियोगी परीक्षाओं के लिए यह वीडियो बहुत ही फायदेमंद है!"
+
 YT_TAGS_POOL = [
-    ["gk", "hindi gk", "mega quiz", "gk test", "education"],
-    ["general knowledge", "gk in hindi", "top gk", "gk challenge"],
-    ["upsc gk", "ssc gk", "competitive exams gk", "hindi questions"]
+    ["science gk", "general science", "vigyan ke prashn", "science quiz in hindi", "science mcq"],
+    ["biology gk", "physics gk in hindi", "chemistry gk", "railway science", "ssc science gk"],
+    ["science questions and answers", "general knowledge science", "top science gk", "science test", "education"]
 ]
 
 # =======================================================================
